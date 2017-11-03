@@ -3,5 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
+      - pwd
       - ls .
-      - test.sh
+      - sh test.sh
